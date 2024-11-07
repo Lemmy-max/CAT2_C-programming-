@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int scores[2][2];
+
+    scores[0][0] = 84;
+    scores[0][1] = 72;
+    scores[1][0] = 59;
+    scores[1][1] = 67;
+
+    int i;
+    int j;
+
+    for (i = 0; i < 2; i++) {
+        for (j = 0; j < 2; j++) {
+            printf("%d ", scores[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
